@@ -19,6 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -40,4 +41,11 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+body {
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 100px;
 }
