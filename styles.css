@@ -43,9 +43,94 @@ table {
 	border-spacing: 0;
 }
 
+
+
 body {
-	margin-top: 100px;
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-bottom: 100px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+	background-image: url("https://i.imgur.com/l3KcK4b.jpg");
+	background-color: #cccccc;	
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+body header h1 {
+	color: #dbdbdb;
+	margin: 0px;
+	font: bold;
+	font-size: 4em;
+	padding-left: 50px;
+	padding-bottom: .25em;
+	background: #5c5c5c;
+}
+
+#links {
+	background: #5c5c5c;
+	padding-bottom: 1em;
+
+}
+
+#links li {
+	background: #5c5c5c;
+	display: inline-block;
+}
+
+#links li a:link, #links li a:visited {
+	color: #dbdbdb;
+	background: #5c5c5c;
+	text-decoration: none;
+	text-align: center;
+	padding-left: 50px;
+}
+
+#links li a:hover, #links li a:active {
+	color: #1c1c1c;
+	background: #5c5c5c;
+	text-decoration: none;
+	text-align: center;
+	padding-left: 50px;
+}
+
+h2{
+	font-size: 2em;
+	margin-left:10px;
+	margin-bottom: 10px;
+	padding-top: 20px;	
+}
+
+p {
+	font-size: 1em;
+	max-width: 100%;
+	margin-left:10px;
+	margin-bottom: 10px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.main {
+	max-width: 70%;
+	margin: auto;
+	background-color: #c2c2c2;
+	padding-bottom: 20px;
+}
+
+section figure div {
+	max-width: 100%;
+	width: 90%;
+	background-color: #cccccc;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 20px;
+}
+
+section figure div img {
+	width: auto; 	
+}
+
+section figure div figcaption {
+	text-align: center;
+	padding: 10px 20px;
 }
