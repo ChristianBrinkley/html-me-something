@@ -134,3 +134,7 @@ section figure div figcaption {
 	text-align: center;
 	padding: 10px 20px;
 }
+
+p.foot {
+	color: white;
+}
